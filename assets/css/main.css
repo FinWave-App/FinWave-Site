@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    @apply bg-base-200;
+}
+
+body {
+    @apply bg-base-200;
+}
+
+.font-title {
+    font-family: Figtree, Noto Sans JP, Noto Sans, Vazirmatn, sans-serif;
+}

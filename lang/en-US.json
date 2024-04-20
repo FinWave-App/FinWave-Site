@@ -1,0 +1,62 @@
+{
+  "navigation": {
+    "main": "Main",
+    "demo": "Demo",
+    "install": "Install",
+    "github": "Github",
+
+    "themes": {
+      "system": "System",
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "main": {
+    "hero": {
+      "title": "FinWave - Manage Your Finances With Ease!",
+      "description": "FinWave is an open-source solution that helps you manage your family and personal finances with features like automatic transactions, customizable currency, multiple account management and so on. Your data is safe: deploy to your own infrastructure!",
+      "buttons": {
+        "try": "Try Demo",
+        "features": "Main Features",
+        "install": "Install"
+      }
+    }
+  },
+
+  "features": {
+    "title": "Main Features",
+
+    "openSource": {
+      "title": "Open Source",
+      "description": "Embrace a community-driven budgeting app where openness enhances security and fosters trust."
+    },
+    "webBased": {
+      "title": "Web-Based",
+      "description": "Log in from any browser for an effortless budgeting experience, with no downloads or installations necessary."
+    },
+    "deepAnalytics": {
+      "title": "Deep Analytics",
+      "description": "Easily dissect your finances with our intuitive tag-based transaction, for a clearer financial picture."
+    },
+    "automations": {
+      "title": "Automations",
+      "description": "Set up recurring payments once and never miss a transaction again, freeing you up for the important things in life."
+    },
+    "exportCSV": {
+      "title": "Export to CSV",
+      "description": "Take control of your transactions with quick exports to CSV for detailed analysis or convenient record-keeping."
+    },
+    "multiLanguage": {
+      "title": "Multi-Language",
+      "description": "Budgeting is borderless with our multi-language support; manage your finances in the language you speak at home."
+    }
+  },
+
+  "install": {
+    "title": "Installation is a Breeze",
+    "description": "Ensure you have Docker-Compose installed on your preferred Linux distribution, and with just a few simple commands, you'll be on your way to financial clarity.",
+    "buttons": {
+      "deployRepository": "View on GitHub"
+    }
+  }
+}
