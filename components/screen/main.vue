@@ -1,7 +1,7 @@
 <template>
   <div id="main" class="min-h-screen flex flex-col">
     <div class="hero flex-1">
-      <div class="hero-content flex-col justify-between lg:flex-row-reverse min-w-full gap-4 xl:px-32">
+      <div class="hero-content flex-col justify-between lg:flex-row-reverse min-w-full gap-4 2xl:gap-16 lg:px-16 xl:px-32">
         <ul class="circles -z-10 pointer-events-none">
           <li>$</li>
           <li>¥</li>
@@ -14,7 +14,10 @@
           <li>Ξ</li>
           <li>₿</li>
         </ul>
-        <img src="/public/icon.png" class="h-32 lg:h-64" />
+        <a href="demo-view.png" class="hidden 2xl:block 2xl:w-2/3 transition-all hover:scale-110 z-10">
+          <img src="/public/demo-view.png" class="rounded-2xl" alt="FinWave demo view"/>
+        </a>
+        <img src="/public/icon.png" class="2xl:hidden w-32 lg:w-64" alt="FinWave icon">
         <div class="text-center lg:text-left flex flex-col justify-center items-center lg:items-start">
           <h1 class="brightness-125 text-3xl md:text-4xl lg:text-5xl font-bold w-title-text">{{ $t("main.hero.title") }}</h1>
           <p class="brightness-125 py-6 md:text-xl w-title-text">{{ $t("main.hero.description") }}</p>

@@ -1,6 +1,6 @@
 {
   "navigation": {
-    "main": "Main",
+    "main": "Home",
     "demo": "Demo",
     "install": "Install",
     "github": "Github",
@@ -11,10 +11,11 @@
       "light": "Light"
     }
   },
+
   "main": {
     "hero": {
-      "title": "FinWave - Manage Your Finances With Ease!",
-      "description": "FinWave is an open-source solution that helps you manage your family and personal finances with features like automatic transactions, customizable currency, multiple account management and so on. Your data is safe: deploy to your own infrastructure!",
+      "title": "FinWave - Manage Your Finances!",
+      "description": "FinWave is a flexible open-source solution for finance management featuring automatic transactions, customizable currencies, multi-account management, and more. Your data is secure: deploy the application on your own infrastructure!",
       "buttons": {
         "try": "Try Demo",
         "features": "Main Features",
@@ -22,39 +23,48 @@
       }
     }
   },
-
   "features": {
     "title": "Main Features",
-
     "openSource": {
       "title": "Open Source",
-      "description": "Embrace a community-driven budgeting app where openness enhances security and fosters trust."
+      "description": "FinWave is an open-source application. This enhances security and builds trust."
     },
     "webBased": {
       "title": "Web-Based",
-      "description": "Log in from any browser for an effortless budgeting experience, with no downloads or installations necessary."
+      "description": "Access from any device without the need for downloading and installation."
+    },
+    "treeLikeCategories": {
+      "title": "Tree-Like Categories",
+      "description": "Categorize transactions as you prefer: create category hierarchies to easily track and analyze expenses."
     },
     "deepAnalytics": {
-      "title": "Deep Analytics",
-      "description": "Easily dissect your finances with our intuitive tag-based transaction, for a clearer financial picture."
+      "title": "Advanced Analytics",
+      "description": "Analyze your expenses using any filter: from period to transaction descriptions."
     },
     "automations": {
       "title": "Automations",
-      "description": "Set up recurring payments once and never miss a transaction again, freeing you up for the important things in life."
+      "description": "Set up regular payments once and never miss a transaction again."
+    },
+    "budgetPlanning": {
+      "title": "Budget Planning",
+      "description": "Set expected expenses and incomes by categories for accurate budget planning."
     },
     "exportCSV": {
-      "title": "Export to CSV",
-      "description": "Take control of your transactions with quick exports to CSV for detailed analysis or convenient record-keeping."
+      "title": "Import/Export CSV Files",
+      "description": "Quickly import or export your transactions for detailed analysis or storage."
     },
     "multiLanguage": {
-      "title": "Multi-Language",
-      "description": "Budgeting is borderless with our multi-language support; manage your finances in the language you speak at home."
+      "title": "Multi-Language Support",
+      "description": "Manage your finances in the language you use daily."
+    },
+    "aiAssistant": {
+      "title": "ChatGPT Support",
+      "description": "Powerful AI integration can help analyze expenses, create or modify categories, add transactions, and much more."
     }
   },
-
   "install": {
-    "title": "Installation is a Breeze",
-    "description": "Ensure you have Docker-Compose installed on your preferred Linux distribution, and with just a few simple commands, you'll be on your way to financial clarity.",
+    "title": "Easy Installation",
+    "description": "Ensure you have Docker-Compose installed on your chosen version of Linux. A few simple commands — and you're all set.",
     "buttons": {
       "deployRepository": "View on GitHub"
     }

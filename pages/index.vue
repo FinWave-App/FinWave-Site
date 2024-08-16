@@ -4,6 +4,7 @@
     <screen-main />
     <screen-features />
     <screen-install />
+    <fw-footer />
   </div>
 </template>
 
